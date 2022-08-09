@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/gas_portugal/static/css/main.7cff48ea.css",
+    "main.js": "/gas_portugal/static/js/main.37e46939.js",
+    "static/media/logo.png": "/gas_portugal/static/media/logo.b5f3abe09957e77fbd48.png",
+    "index.html": "/gas_portugal/index.html",
+    "main.7cff48ea.css.map": "/gas_portugal/static/css/main.7cff48ea.css.map",
+    "main.37e46939.js.map": "/gas_portugal/static/js/main.37e46939.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7cff48ea.css",
+    "static/js/main.37e46939.js"
+  ]
+}
