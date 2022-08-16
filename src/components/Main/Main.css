@@ -1,4 +1,15 @@
-form{
+.table--price{
+    min-width: 80px;
+}
+
+.price-column:hover::after{
+    content: "Clique no nome do posto para mais informação!";
+    position: relative;
+}
+
+
+.table--head{
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    border: none;
 }

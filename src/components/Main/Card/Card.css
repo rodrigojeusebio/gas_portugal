@@ -1,0 +1,39 @@
+.pop-up-container{
+    margin: auto 2px;
+}
+
+
+
+.blue-section{
+    border-radius: 10px;   
+}
+
+.horario--title{
+    font-weight: 800;
+}
+
+.horario--text{
+    padding-left: 10px;
+}
+
+.pagamento--title{
+    font-weight: 800;
+}
+
+.pagamento--text{
+    padding-left: 10px;
+}
+
+
+.footer-title{
+    font-weight: 800;
+    padding-top: 10px;
+
+}
+
+.card-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
