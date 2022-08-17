@@ -2,8 +2,6 @@ import React from "react";
 import map from "./map.png"
 import "./Card.css"
 
-
-
 export default function Card(props){
 
     const [showPosto, setShowPosto] = React.useState()
@@ -48,7 +46,6 @@ export default function Card(props){
             <div>
                 <p className="pagamento--title">Link para o Google Maps</p>
                 <a className="pagamento--text" target="_blank" href={`https://www.google.com/maps/search/?api=1&query=${posto.Morada.Latitude},${posto.Morada.Longitude}`}>Google Maps <span><img src={map} style={{height:"20px"}}></img></span></a>
-                {/* <a className="pagamento--text" href={`https://www.google.com/maps`}>Google Maps <span><img src={map} style={{height:"20px"}}></img></span></a> */}
 
             </div>
             <footer className="card-footer">
