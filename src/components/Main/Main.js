@@ -48,7 +48,9 @@ export default function Main(){
             if (distrito !== ""){
                   const response = await fetch(`https://precoscombustiveis.dgeg.gov.pt/api/PrecoComb/GetMunicipios?idDistrito=${distrito}`,)
                   const data = await response.json()
-                  setMinicipios(data.resultado)
+                  console.log(data.resultado)
+                  console.log(data.resultado.sort((a, b) => a.Descritivo.localeCompare(b.Descritivo)))
+                  setMinicipios(data.resultado.sort((a, b) => a.Descritivo.localeCompare(b.Descritivo)))
                 }
         }
         getMuni()

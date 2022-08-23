@@ -16,8 +16,11 @@ export default function Card(props){
             <section className="hero is-info blue-section">
                 <div className="hero-body">
                     <p className="title is-5">
-                        {posto.Nome} - {posto.Marca}
-                    </p>
+                        {posto.Nome} -  
+                        <span className="marca">
+                         {posto.Marca}
+                        </span></p>
+                    
                     <p className="subtitle">
                         {posto.Morada.Morada}
                     </p>
@@ -32,13 +35,13 @@ export default function Card(props){
                 <p className="horario--text">Feriados: {posto.HorarioPosto.Feriado}h</p>
             </section>
             <section>
-                <p className="pagamento--title">Meio pagamento:</p>
+                <p className="pagamento--title">Meio pagamento</p>
                 {posto.MeiosPagamento.map(el => {
                     return(<p className="pagamento--text">{el.Descritivo}</p>)
                 })}
             </section>
             {posto.Servicos &&    <section>
-                    <p className="pagamento--title">Serviços:</p>
+                    <p className="pagamento--title">Serviços</p>
                     {posto.Servicos.map(el => {
                         return(<p className="pagamento--text">{el.Descritivo}</p>)
                     })}

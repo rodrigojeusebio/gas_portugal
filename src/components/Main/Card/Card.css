@@ -6,6 +6,13 @@
     border-radius: 10px;   
 }
 
+
+.marca{
+    padding-inline: 3px;
+    background-color: crimson;
+    border-radius: 5px;
+}
+
 .horario--title{
     font-weight: 800;
 }
