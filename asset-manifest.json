@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/gas_portugal/static/css/main.258fe2b6.css",
-    "main.js": "/gas_portugal/static/js/main.2ddfbaf6.js",
+    "main.js": "/gas_portugal/static/js/main.2f660fe4.js",
     "static/media/loading-buffering.gif": "/gas_portugal/static/media/loading-buffering.53acaf40d99aa690dcdf.gif",
     "static/media/map.png": "/gas_portugal/static/media/map.73948584a92a3fc87a6f.png",
     "static/media/logo.png": "/gas_portugal/static/media/logo.b5f3abe09957e77fbd48.png",
     "static/media/click.png": "/gas_portugal/static/media/click.44b92c5465c8fc7f5579.png",
     "index.html": "/gas_portugal/index.html",
     "main.258fe2b6.css.map": "/gas_portugal/static/css/main.258fe2b6.css.map",
-    "main.2ddfbaf6.js.map": "/gas_portugal/static/js/main.2ddfbaf6.js.map"
+    "main.2f660fe4.js.map": "/gas_portugal/static/js/main.2f660fe4.js.map"
   },
   "entrypoints": [
     "static/css/main.258fe2b6.css",
-    "static/js/main.2ddfbaf6.js"
+    "static/js/main.2f660fe4.js"
   ]
 }
